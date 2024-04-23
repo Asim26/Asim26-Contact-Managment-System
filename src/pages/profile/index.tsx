@@ -1,6 +1,7 @@
 import { Card, Image } from "antd";
 import './styles.css';
 
+
 const Profile = () => {
     return (
         <>
