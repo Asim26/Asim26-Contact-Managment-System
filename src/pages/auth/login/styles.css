@@ -1,0 +1,44 @@
+.main{
+    /* border: 1px solid red;  */
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(245, 245, 245),
+}
+.cardContainer{
+    border: 1px solid black;
+    width: 40%;
+    height: 45%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.transparent-glass {
+    background-color: rgba(255, 255, 255, 0.5); /* White color with 50% opacity */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Black border with 10% opacity */
+}
+.cardContentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1270px) {
+    .main{
+       /* background-color: green; */
+    }
+    .cardContainer{
+        width: 50%;
+        height: 50%;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .sub-heading{
+        padding-left: 4px;
+        padding-right: 4px;
+        text-align: center;
+    }
+}
